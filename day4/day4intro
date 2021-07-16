@@ -16,7 +16,7 @@
         <h3 style="text-align: center;">is my name</h3>
         <hr>
         <h2>What's yours?</h2>
-        <form action="file:///C:/Users/W0468718/Documents/Madison%20Boone/codes/Welcome.html">
+        <form action="day4Welcome!.html">
             <label for="fname">Your name:</label>
             <input type="text" id="first" name="first"><br><br>
             <input type="submit" value="Next!">

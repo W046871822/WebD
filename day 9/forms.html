@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="mainStylesheet.css">
+        <style>
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 20px;
+            }
+        </style>
+        <title>Madison Boone
+        </title>
+    </head>
+    <body>
+        <table style= "border: none;">
+            <tr>
+                <th><a href= "index.html">
+                    Welcome page
+                    </a>
+                </th>
+                <th><a href= "Tables.html">
+                    Table page
+                    </a>
+                </th>
+            </tr>
+           </table>
+        <h1>
+            Sample Form
+        </h1>
+        <h2 title="my name">My name is Madison Boone</h2>
+
+        <hr>
+
+        <!--input for name-->
+        <h2>What's yours?</h2>
+        <form action="index.html" method="post" enctype="text/plain" target="_blank" autocomplete="on">
+            Your name:
+            <input type="text" name="name" required><br><br>
+            <br>
+            <hr>
+            <!--radio select how your day is-->
+        <h2>How has your day been?</h2>
+        
+          <input type="radio" id="Great!" name="fav_language" value="Great!">
+          <label for="Great!">Great!</label><br>
+
+          <input type="radio" id="Good" name="fav_language" value="Good">
+          <label for="Good">Good</label><br>
+
+          <input type="radio" id="Fine" name="fav_language" value="Fine">
+          <label for="Fine">Fine</label><br>
+
+          <input type="radio" id="NotGood" name="fav_language" value="Not good">
+          <label for="NotGood">Not good</label><br>
+
+          <input type="radio" id="Bad" name="fav_language" value="Bad">
+          <label for="Bad">Bad</label>
+        
+    <br>
+    <br>
+        <hr>
+    <br>
+
+            <!--text area-->
+        <h2>What's something that impressed you recently?</h2>
+        <p> ex. someones abilities or your own abilities.</p>
+            <textarea name="message" rows="5" cols="70"></textarea>
+
+        <br><br><br>
+        <hr>
+        <br>
+            <label>A color you like?</label>
+            <input type="color"><br>
+            <br>
+
+            <label>What time is it?</label>
+            <input type="time">
+<br><br>
+    <input type="submit" value="Next!">
+  <input type="reset" value="Reset">
+</form>
+    </body>
+</html>

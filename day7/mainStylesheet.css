@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(143, 195, 216);
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    font-size: 300%;
+} 
+caption{
+    font-size:140%;
+}
+p {
+    color:white;
+    font-size:200%;
+}
+a {
+    text-decoration: none;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 100%;
+    padding:30px;
+    box-shadow:  0 1px 3px rgb(88, 88, 88);
+}
+img {
+    box-shadow:  0 1px 3px rgb(88, 88, 88);
+}
+a:hover {
+    background-color:rgb(235, 235, 235);
+}
+table {
+    width:90%;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    padding: 30px
+}
+thead {font-weight:bold
+	
+}
+td {color:rgb(255, 255, 255);
+	font-size: 30px;
+}
+col{
+    background-color:rgb(119, 119, 119);
+}
+#t1 {
+    background-color:rgb(150, 200, 160);
+}
+#t2 {
+	background-color:rgb(200, 150, 160);
+	}
+colgroup {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

@@ -1,0 +1,91 @@
+label {
+    font-size: 20px
+}
+input {
+    text-decoration: none;
+    background-color:rgb(125, 177, 219);
+    border: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    background-color:rgb(68, 131, 182);
+    font-size: 400%;
+    color: white;
+    padding:5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow:  0 px 6px rgb(56, 68, 77);
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    text-align:left;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+} 
+h3 {
+    text-align:left;
+    color:rgb(255, 255, 255);
+    font-size: 100%;
+}
+caption{
+    font-size:140%;
+}
+p {
+    text-align:left;
+    color:rgb(0, 0, 0);
+    font-size:70%;
+}
+a {
+    text-decoration: none;
+    background-color:rgb(125, 177, 219);
+    color:rgb(255, 255, 255);
+    font-size: 50%;
+    padding:30px;
+    box-shadow:  0 1px 3px rgb(88, 88, 88);
+}
+ul, li {
+    color:white;
+}
+footer {
+    background-color:rgb(50, 111, 160);
+}
+
+img {
+    box-shadow:  0 1px 3px rgb(88, 88, 88);
+}
+a:hover {
+    background-color:rgb(68, 131, 182);
+}
+table {
+    width:90%;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    padding: 30px
+}
+thead {font-weight:bold
+	
+}
+td {color:rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+col{
+    background-color:rgb(119, 119, 119);
+}
+#t1 {
+    background-color:rgb(150, 200, 160);
+}
+#t2 {
+	background-color:rgb(200, 150, 160);
+	}
+colgroup {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

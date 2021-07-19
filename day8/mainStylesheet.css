@@ -1,0 +1,125 @@
+label {
+    font-size: 20px
+}
+input {
+    text-decoration: none;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    font-size: 400%;
+    padding:5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow:  0 2px 6px rgb(56, 68, 77);
+}
+body {
+    background-color: rgb(143, 195, 216);
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    font-size: 300%;
+} 
+caption{
+    font-size:140%;
+}
+p {
+    color:white;
+    font-size:200%;
+}
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 100%;
+}
+img {
+    box-shadow:  0 1px 3px rgb(88, 88, 88);
+}
+a:hover {
+    background-color:rgb(235, 235, 235);
+}
+table {
+    width:90%;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    padding: 30px
+}
+thead {font-weight:bold
+	
+}
+td {color:rgb(255, 255, 255);
+	font-size: 30px;
+}
+col{
+    background-color:rgb(119, 119, 119);
+}
+#t1 {
+    background-color:rgb(150, 200, 160);
+}
+#t2 {
+	background-color:rgb(200, 150, 160);
+	}
+colgroup {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  @media only screen and (min-width: 768px) 
+  {
+    /* Desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+  @media only screen and (max-width: 768px) 
+  {
+    /* Mobile phones */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }

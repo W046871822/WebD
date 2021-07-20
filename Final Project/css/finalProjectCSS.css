@@ -36,6 +36,7 @@ caption{
     font-size:1.4em;
 }
 p {
+    width:82%;
     text-align:left;
     color:rgb(0, 0, 0);
     font-size: 120%;
@@ -64,6 +65,7 @@ footer {
 }
 
 img {
+    width: 30%;
     box-shadow:  0 1px 3px rgb(88, 88, 88);
 }
 a:hover {
@@ -121,14 +123,11 @@ colgroup {
     font-size: 1.5rem;
 
   }
-  img {
-    width: 30%
-}
 
 
 
   /* On screens that are 880px wide or less, make the menu links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 925px) {
     .topnav a {
       float: none;
       display: block;

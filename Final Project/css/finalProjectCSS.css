@@ -36,10 +36,10 @@ caption{
     font-size:1.4em;
 }
 p {
-    width:82%;
+    width:80%;
     text-align:left;
     color:rgb(0, 0, 0);
-    font-size: 120%;
+    font-size: 1.2em;
 }
 a {
     text-decoration: none;
@@ -62,14 +62,12 @@ ul, li {
 }
 footer {
     background-color:rgb(50, 111, 160);
+    margin-top: 100px;
 }
 
 img {
-   width: 30%;
+   size: 100%;
     box-shadow:  0 1px 3px rgb(88, 88, 88);
-}
-.logo image {
-	width: 12%
 }
 a:hover {
     background-color:rgb(68, 131, 182);
@@ -78,20 +76,21 @@ table {
     width:0.9rem;
 }
 aside {
-    width: 40%;
-    float: right;
     padding: 20px;
-    margin-left: 15px;
+    margin-right: 15px;
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0)
 }
 
 
+table {
+    width: 90%;
+}
+
 table, th, td {
     border: none;
     border-collapse: collapse;
     color:rgb(255, 255, 255);
-    padding: 1.875rem
 }
 thead {font-weight:bold
 	
@@ -120,13 +119,28 @@ colgroup {
   .topnav a:hover {
     background-color:rgb(105, 157, 199);
   }
-  .content section {
+  .left img {
     float: left;
     display: block;
     font-size: 1.5rem;
 
   }
+  .left p {
+    float: left;
+    display: block;
+    font-size: 1.5rem;
+  }
+  .right img {
+    float: right;
+    display: block;
+    font-size: 1.5rem;
 
+  }
+  .right p {
+    float: right;
+    display: block;
+    font-size: 1.5rem;
+  }
 
 
   /* On screens that are 880px wide or less, make the menu links stack on top of each other instead of next to each other */
@@ -149,5 +163,6 @@ colgroup {
     .content img {
     width: 82%;
 }
+
 
 }

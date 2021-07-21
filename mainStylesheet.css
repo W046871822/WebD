@@ -90,20 +90,20 @@ colgroup {
   }
   
  .topnav a {
-    background-color:rgb(125, 177, 219);  
+    background-color:rgb(255, 255, 255);  
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 1.5rem;
     padding:30px;
     box-shadow:  0 1px 3px rgb(139, 146, 151);
   }
   
   .topnav a:hover {
-    background-color:rgb(105, 157, 199);
+    background-color:rgb(187, 187, 187);
   }
   .content section {
     float: left;
@@ -115,7 +115,7 @@ colgroup {
 
 
   /* On screens that are 880px wide or less, make the menu links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 925px) {
+  @media screen and (max-width: 1025px) {
     .topnav a {
       float: none;
       display: block;

@@ -79,19 +79,17 @@ aside {
     color:rgb(0, 0, 0)
 }
 table {
-    width: 90%;
+    width: 80%;
 }
 table, th, td {
     border: none;
     border-collapse: collapse;
     color:rgb(255, 255, 255);
 }
-thead {font-weight:bold
-	
+th, td{
+    font-weight:bold	
 }
-td {color:rgb(255, 255, 255);
-	font-size: 30px;
-}
+
 
 colgroup {
     font-family: Georgia, 'Times New Roman', Times, serif

@@ -66,27 +66,21 @@ footer {
 }
 
 img {
-   size: 100%;
     box-shadow:  0 1px 3px rgb(88, 88, 88);
 }
 a:hover {
     background-color:rgb(68, 131, 182);
 }
-table {
-    width:90%;
-}
+
 aside {
     padding: 20px;
     margin-right: 15px;
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0)
 }
-
-
 table {
     width: 90%;
 }
-
 table, th, td {
     border: none;
     border-collapse: collapse;

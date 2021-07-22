@@ -33,25 +33,25 @@
             required><br>
 
             <br>
-            <label for="phone">Phone number:</label>
+            <label for="phone">Phone number:</label><br><br>
             <input type="tel" id="phone" name="phone"
             placeholder="(123)456-7891"
             pattern="[0-9]{3}[0-9]{3}-[0-9]{4}"><br><br>
 
-            <label for="fname">First name:</label>
+            <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" size="10" required><br><br>
 
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname" size="10" required><br><br>
 
-            <label for="postalCode">Postal code:</label>
+            <label for="postalCode">Postal code:</label><br>
             <input type="tel" id="postalCode" name="phone"
             placeholder="x1x 1x1"
             pattern="[A-Za-z]{1}[0-9]{1}[A-Za-z]{1}[0-9]{1}[A-Za-z]{1}[0-9]{1}"><br><br>
 
-            <label for="radio"></label>
+            <label for="radio"></label><br>
             
-            <label for="checkbox">Send Emails about our websites updates</label>
+            <label for="checkbox">Send Emails about our websites updates</label><br>
             <input type="checkbox" id="checkbox">
             <br>
 
@@ -59,9 +59,33 @@
             <input type="reset" value="Reset">
             
           </form>
-          </body>
-          </html>
 
+		
+<h1>Laura's Sample Form</h1>
+<p>This is hosted with GitHub Pages and will trigger a client email to send a message with the content of the form. <br>This form is hard coded to use my email to send.</p>
+<h2>Send me todays GitHub URL.</h2>
+
+<form action="mailto:laura.franks@nscc.ca?subject=From%20our%20Website" method="post" enctype="text/plain">
+  <br>
+  
+  <label for="emaill">E-mail:  </label>
+  <input type="email" id="emaill" name="email" required><br>
+  <br>
+  <label for="yourname">Your first and Last Name:  </label>
+  <input type="text" id="yourname" name="yourname" min="5" size="50" required><br>
+  <br>
+  <br>
+	<p>Where you found this website</p>
+	<input type="radio" id="search" name="where_website_was_found" value="search">
+  <label for="search">searching for info</label><br>
+  <input type="radio" id="sharing" name="where_website_was_found" value="sharing">
+  <label for="sharing">it was shared with me</label><br>
+  <input type="radio" id="heard" name="where_website_was_found" value="heard">
+  <label for="heard">heard about it</label>
+	
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+</form>
 
 
 
@@ -69,7 +93,7 @@
           <footer>
             <br><br>
             <h2>connect</h2>
-            <a href="H4CsignUp.html">
+			  <a href="H4CsignUp.html"></a>
                 <br><br>
 
                 <h2>Quick links</h2>

@@ -22,12 +22,12 @@
 
         
         <h1>
-			<i>Sign Up</i>
+			<i>donate</i>
         </h1>
         <form action="mailto:W0468718@campus.nscc.ca?subject=From%20our%20Website" method="post" enctype="text/plain">
             <br>
             
-            <label for="email">E-mail:  </label>
+            <label for="email">E-mail:  </label><br>
             <input type="email" id="email" name="email" 
             placeholder="example@mail.com"
             required><br>
@@ -41,7 +41,7 @@
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" size="10" required><br><br>
 
-            <label for="lname">Last name:</label>
+            <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" size="10" required><br><br>
 
             <label for="postalCode">Postal code:</label><br>
@@ -49,11 +49,20 @@
             placeholder="x1x 1x1"
             pattern="[A-Za-z]{1}[0-9]{1}[A-Za-z]{1}[0-9]{1}[A-Za-z]{1}[0-9]{1}"><br><br>
 
-            <label for="radio"></label><br>
-            
-            <label for="checkbox">Send Emails about our websites updates</label><br>
-            <input type="checkbox" id="checkbox">
-            <br>
+            <label for="radio">donate:</label><br>
+
+            <input type="radio" id="ten" name="donate" value="ten">
+            <label for="radio">ten</label><br>
+
+            <input type="radio" id="fifty" name="donate" value="fifty">
+            <label for="radio">fifty</label><br>
+
+            <input type="radio" id="hundred" name="donate" value="hundred">
+            <label for="radio">hundred</label><br><br>
+
+            <label for="text">custom amount</label><br>
+            <input type="text" id="custom" name="donate" value="$">
+            <br><br>
 
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
@@ -61,27 +70,46 @@
           </form>
 
 		
-<h1>Laura's Sample Form</h1>
-<p>This is hosted with GitHub Pages and will trigger a client email to send a message with the content of the form. <br>This form is hard coded to use my email to send.</p>
-<h2>Send me todays GitHub URL.</h2>
+<h1>sign up</h1>
 
-<form action="mailto:laura.franks@nscc.ca?subject=From%20our%20Website" method="post" enctype="text/plain">
+<form action="mailto:W0468718@campus.nscc.ca?subject=From%20our%20Website" method="post" enctype="text/plain">
   <br>
-  
-  <label for="emaill">E-mail:  </label>
-  <input type="email" id="emaill" name="email" required><br>
+  <!--email input-->
+  <label for="email">E-mail:  </label><br>
+            <input type="email" id="email" name="email" 
+            placeholder="example@mail.com"
+            required><br>
   <br>
-  <label for="yourname">Your first and Last Name:  </label>
-  <input type="text" id="yourname" name="yourname" min="5" size="50" required><br>
+  <!--first name input-->
+  <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" size="10" required><br><br>
+<!--last name input-->
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" size="10" required><br><br>
   <br>
   <br>
-	<p>Where you found this website</p>
-	<input type="radio" id="search" name="where_website_was_found" value="search">
+
+<!--How the website was found radio input-->
+  <label for="radio">How did you find our website?</label><br>
+
+  <input type="radio" id="search" name="where_website_was_found" value="search">
   <label for="search">searching for info</label><br>
+
   <input type="radio" id="sharing" name="where_website_was_found" value="sharing">
   <label for="sharing">it was shared with me</label><br>
+
   <input type="radio" id="heard" name="where_website_was_found" value="heard">
   <label for="heard">heard about it</label>
+
+<!--checkbox to allow followup emails, does'nt actually do anything-->
+<br><br>
+<label for="checkbox">Send Emails about our websites updates</label><br>
+            <input type="checkbox" id="checkbox"><br><br>
+
+            <!--allows to type feedback-->
+            <label for="text">give us feedback:</label><br>
+            <input type="text" id="custom" name="feedback" rows="5" cols="70">
+            <br><br>
 	
   <input type="submit" value="Send">
   <input type="reset" value="Reset">

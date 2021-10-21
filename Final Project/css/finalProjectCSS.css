@@ -85,7 +85,6 @@ footer {
 a:hover {
     background-color:rgb(68, 131, 182);
 }
-
 aside {
 	width: 30%;
   	float: right;
@@ -113,9 +112,9 @@ th, td{
 colgroup {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-
 .topnav a {
-    background-color:rgb(125, 177, 219);  
+    background-color:rgb(125, 177, 219);
+    border-radius: 10px;
     float: left;
     display: block;
     text-align: center;

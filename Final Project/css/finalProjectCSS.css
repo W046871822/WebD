@@ -58,11 +58,57 @@ a {
     box-shadow:  0 1px 3px rgb(88, 88, 88);
     float: left;
 }
-nav {
-    display: block;
-    padding: 7px 8px;
+.topnav {
+  background: rgb(250, 250, 250);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 2;
+  overflow: hidden;
 }
 
+.topnav nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.topnav nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: inline-block;
+  padding: 50px;
+  position: relative;
+}
+
+.topnav a:hover {
+  color: #000;
+}
+
+.topnav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 20px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.topnav nav a:hover::before {
+  width: 100%;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 ul, li {
     color:white;
 }
@@ -112,22 +158,7 @@ th, td{
 colgroup {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-.topnav a {
-    background-color:rgb(125, 177, 219);
-    border-radius: 10px;
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size: 1.5rem;
-    box-shadow:  0 1px 3px rgb(139, 146, 151);
-  }
-  
-  .topnav a:hover {
-    background-color:rgb(105, 157, 199);
-  }
+
 section {
 	margin-bottom: 10%;
 }
